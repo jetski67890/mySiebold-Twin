@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C345233294349DF007B0BD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C345232294349DF007B0BD1 /* AppDelegate.swift */; };
+		8C345235294349DF007B0BD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C345234294349DF007B0BD1 /* SceneDelegate.swift */; };
+		8C345237294349DF007B0BD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C345236294349DF007B0BD1 /* ViewController.swift */; };
+		8C34523A294349DF007B0BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C345238294349DF007B0BD1 /* Main.storyboard */; };
+		8C34523C294349E0007B0BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C34523B294349E0007B0BD1 /* Assets.xcassets */; };
+		8C34523F294349E0007B0BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C34523D294349E0007B0BD1 /* LaunchScreen.storyboard */; };
+		8C34524A294349E1007B0BD1 /* mySiebold_TwinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C345249294349E1007B0BD1 /* mySiebold_TwinTests.swift */; };
+		8C345254294349E1007B0BD1 /* mySiebold_TwinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C345253294349E1007B0BD1 /* mySiebold_TwinUITests.swift */; };
+		8C345256294349E1007B0BD1 /* mySiebold_TwinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C345255294349E1007B0BD1 /* mySiebold_TwinUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C345246294349E1007B0BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C345227294349DF007B0BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C34522E294349DF007B0BD1;
+			remoteInfo = "mySiebold-Twin";
+		};
+		8C345250294349E1007B0BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C345227294349DF007B0BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C34522E294349DF007B0BD1;
+			remoteInfo = "mySiebold-Twin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C34522F294349DF007B0BD1 /* mySiebold-Twin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mySiebold-Twin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C345232294349DF007B0BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C345234294349DF007B0BD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C345236294349DF007B0BD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C345239294349DF007B0BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C34523B294349E0007B0BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C34523E294349E0007B0BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C345240294349E0007B0BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C345245294349E1007B0BD1 /* mySiebold-TwinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mySiebold-TwinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C345249294349E1007B0BD1 /* mySiebold_TwinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySiebold_TwinTests.swift; sourceTree = "<group>"; };
+		8C34524F294349E1007B0BD1 /* mySiebold-TwinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mySiebold-TwinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C345253294349E1007B0BD1 /* mySiebold_TwinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySiebold_TwinUITests.swift; sourceTree = "<group>"; };
+		8C345255294349E1007B0BD1 /* mySiebold_TwinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySiebold_TwinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C34522C294349DF007B0BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C345242294349E1007B0BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C34524C294349E1007B0BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C345226294349DF007B0BD1 = {
+			isa = PBXGroup;
+			children = (
+				8C345231294349DF007B0BD1 /* mySiebold-Twin */,
+				8C345248294349E1007B0BD1 /* mySiebold-TwinTests */,
+				8C345252294349E1007B0BD1 /* mySiebold-TwinUITests */,
+				8C345230294349DF007B0BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C345230294349DF007B0BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C34522F294349DF007B0BD1 /* mySiebold-Twin.app */,
+				8C345245294349E1007B0BD1 /* mySiebold-TwinTests.xctest */,
+				8C34524F294349E1007B0BD1 /* mySiebold-TwinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C345231294349DF007B0BD1 /* mySiebold-Twin */ = {
+			isa = PBXGroup;
+			children = (
+				8C345232294349DF007B0BD1 /* AppDelegate.swift */,
+				8C345234294349DF007B0BD1 /* SceneDelegate.swift */,
+				8C345236294349DF007B0BD1 /* ViewController.swift */,
+				8C345238294349DF007B0BD1 /* Main.storyboard */,
+				8C34523B294349E0007B0BD1 /* Assets.xcassets */,
+				8C34523D294349E0007B0BD1 /* LaunchScreen.storyboard */,
+				8C345240294349E0007B0BD1 /* Info.plist */,
+			);
+			path = "mySiebold-Twin";
+			sourceTree = "<group>";
+		};
+		8C345248294349E1007B0BD1 /* mySiebold-TwinTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C345249294349E1007B0BD1 /* mySiebold_TwinTests.swift */,
+			);
+			path = "mySiebold-TwinTests";
+			sourceTree = "<group>";
+		};
+		8C345252294349E1007B0BD1 /* mySiebold-TwinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C345253294349E1007B0BD1 /* mySiebold_TwinUITests.swift */,
+				8C345255294349E1007B0BD1 /* mySiebold_TwinUITestsLaunchTests.swift */,
+			);
+			path = "mySiebold-TwinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C34522E294349DF007B0BD1 /* mySiebold-Twin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C345259294349E1007B0BD1 /* Build configuration list for PBXNativeTarget "mySiebold-Twin" */;
+			buildPhases = (
+				8C34522B294349DF007B0BD1 /* Sources */,
+				8C34522C294349DF007B0BD1 /* Frameworks */,
+				8C34522D294349DF007B0BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mySiebold-Twin";
+			productName = "mySiebold-Twin";
+			productReference = 8C34522F294349DF007B0BD1 /* mySiebold-Twin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C345244294349E1007B0BD1 /* mySiebold-TwinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C34525C294349E1007B0BD1 /* Build configuration list for PBXNativeTarget "mySiebold-TwinTests" */;
+			buildPhases = (
+				8C345241294349E1007B0BD1 /* Sources */,
+				8C345242294349E1007B0BD1 /* Frameworks */,
+				8C345243294349E1007B0BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C345247294349E1007B0BD1 /* PBXTargetDependency */,
+			);
+			name = "mySiebold-TwinTests";
+			productName = "mySiebold-TwinTests";
+			productReference = 8C345245294349E1007B0BD1 /* mySiebold-TwinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C34524E294349E1007B0BD1 /* mySiebold-TwinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C34525F294349E1007B0BD1 /* Build configuration list for PBXNativeTarget "mySiebold-TwinUITests" */;
+			buildPhases = (
+				8C34524B294349E1007B0BD1 /* Sources */,
+				8C34524C294349E1007B0BD1 /* Frameworks */,
+				8C34524D294349E1007B0BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C345251294349E1007B0BD1 /* PBXTargetDependency */,
+			);
+			name = "mySiebold-TwinUITests";
+			productName = "mySiebold-TwinUITests";
+			productReference = 8C34524F294349E1007B0BD1 /* mySiebold-TwinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C345227294349DF007B0BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8C34522E294349DF007B0BD1 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					8C345244294349E1007B0BD1 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8C34522E294349DF007B0BD1;
+					};
+					8C34524E294349E1007B0BD1 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 8C34522E294349DF007B0BD1;
+					};
+				};
+			};
+			buildConfigurationList = 8C34522A294349DF007B0BD1 /* Build configuration list for PBXProject "mySiebold-Twin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C345226294349DF007B0BD1;
+			productRefGroup = 8C345230294349DF007B0BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C34522E294349DF007B0BD1 /* mySiebold-Twin */,
+				8C345244294349E1007B0BD1 /* mySiebold-TwinTests */,
+				8C34524E294349E1007B0BD1 /* mySiebold-TwinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C34522D294349DF007B0BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C34523F294349E0007B0BD1 /* LaunchScreen.storyboard in Resources */,
+				8C34523C294349E0007B0BD1 /* Assets.xcassets in Resources */,
+				8C34523A294349DF007B0BD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C345243294349E1007B0BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C34524D294349E1007B0BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C34522B294349DF007B0BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C345237294349DF007B0BD1 /* ViewController.swift in Sources */,
+				8C345233294349DF007B0BD1 /* AppDelegate.swift in Sources */,
+				8C345235294349DF007B0BD1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C345241294349E1007B0BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C34524A294349E1007B0BD1 /* mySiebold_TwinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C34524B294349E1007B0BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C345254294349E1007B0BD1 /* mySiebold_TwinUITests.swift in Sources */,
+				8C345256294349E1007B0BD1 /* mySiebold_TwinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C345247294349E1007B0BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C34522E294349DF007B0BD1 /* mySiebold-Twin */;
+			targetProxy = 8C345246294349E1007B0BD1 /* PBXContainerItemProxy */;
+		};
+		8C345251294349E1007B0BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C34522E294349DF007B0BD1 /* mySiebold-Twin */;
+			targetProxy = 8C345250294349E1007B0BD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C345238294349DF007B0BD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C345239294349DF007B0BD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C34523D294349E0007B0BD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C34523E294349E0007B0BD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C345257294349E1007B0BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C345258294349E1007B0BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C34525A294349E1007B0BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 587V3P3QNV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mySiebold-Twin/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lukas-Ackermann.mySiebold-Twin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C34525B294349E1007B0BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 587V3P3QNV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mySiebold-Twin/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lukas-Ackermann.mySiebold-Twin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C34525D294349E1007B0BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 587V3P3QNV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lukas-Ackermann.mySiebold-TwinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySiebold-Twin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mySiebold-Twin";
+			};
+			name = Debug;
+		};
+		8C34525E294349E1007B0BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 587V3P3QNV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lukas-Ackermann.mySiebold-TwinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySiebold-Twin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mySiebold-Twin";
+			};
+			name = Release;
+		};
+		8C345260294349E1007B0BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 587V3P3QNV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lukas-Ackermann.mySiebold-TwinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mySiebold-Twin";
+			};
+			name = Debug;
+		};
+		8C345261294349E1007B0BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 587V3P3QNV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lukas-Ackermann.mySiebold-TwinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mySiebold-Twin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C34522A294349DF007B0BD1 /* Build configuration list for PBXProject "mySiebold-Twin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C345257294349E1007B0BD1 /* Debug */,
+				8C345258294349E1007B0BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C345259294349E1007B0BD1 /* Build configuration list for PBXNativeTarget "mySiebold-Twin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C34525A294349E1007B0BD1 /* Debug */,
+				8C34525B294349E1007B0BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C34525C294349E1007B0BD1 /* Build configuration list for PBXNativeTarget "mySiebold-TwinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C34525D294349E1007B0BD1 /* Debug */,
+				8C34525E294349E1007B0BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C34525F294349E1007B0BD1 /* Build configuration list for PBXNativeTarget "mySiebold-TwinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C345260294349E1007B0BD1 /* Debug */,
+				8C345261294349E1007B0BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C345227294349DF007B0BD1 /* Project object */;
+}
