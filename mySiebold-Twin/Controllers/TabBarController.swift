@@ -21,12 +21,17 @@ class TabBarController: UITabBarController {
         
         let substitutionsVC = SubstitutionPlanViewController()
         substitutionsVC.tabBarItem = UITabBarItem(title: "Substitutions", image: UIImage(systemName: "calendar.day.timeline.right"), tag: 1)
+        
+        let menuVC = MenuViewController()
+        menuVC.tabBarItem = UITabBarItem(title: "Menu", image: UIImage(systemName: "fork.knife"), tag: 2)
 
         let navigationController1 = UINavigationController(rootViewController: appointmentsVC)
         
         let navigationController2 = UINavigationController(rootViewController: substitutionsVC)
         
-        setViewControllers([navigationController1, navigationController2], animated: false)
+        let navigationController3 = UINavigationController(rootViewController: menuVC)
+        
+        setViewControllers([navigationController1, navigationController2, navigationController3], animated: false)
 
     }
 }

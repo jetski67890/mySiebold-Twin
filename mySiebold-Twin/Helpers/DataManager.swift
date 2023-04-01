@@ -9,7 +9,8 @@ import Foundation
 
 class DataManager {
     static let shared = DataManager()
-    private let baseURL = "https://mysiebold-backend.onrender.com"
+    private let baseURL = "http://192.168.2.132:5000"
+    //private let baseURL = "https://mysiebold-backend.onrender.com"
     
     private init() {}
     
@@ -26,6 +27,11 @@ class DataManager {
     // Fetch Substitutions
     func fetchSubstitutions(completion: @escaping (Result<[Substitution]>) -> Void) {
         fetchData(endpoint: "/plan", completion: completion)
+    }
+    
+    // Fetch Menus
+    func fetchMenus(completion: @escaping (Result<[Menu]>) -> Void) {
+        fetchData(endpoint: "/menu", completion: completion)
     }
     
     private func fetchData<T: Decodable>(endpoint: String, isArrayResponse: Bool = true, completion: @escaping (Result<[T]>) -> Void) {
