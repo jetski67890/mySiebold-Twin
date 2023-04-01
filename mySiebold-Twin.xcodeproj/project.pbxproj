@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		8C7EA12929D5C52500D1EAEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA12829D5C52500D1EAEF /* AppDelegate.swift */; };
 		8C7EA12B29D5C52500D1EAEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA12A29D5C52500D1EAEF /* SceneDelegate.swift */; };
-		8C7EA12D29D5C52500D1EAEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA12C29D5C52500D1EAEF /* ViewController.swift */; };
 		8C7EA13029D5C52500D1EAEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7EA12E29D5C52500D1EAEF /* Main.storyboard */; };
 		8C7EA13229D5C52E00D1EAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7EA13129D5C52E00D1EAEF /* Assets.xcassets */; };
 		8C7EA13529D5C52E00D1EAEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C7EA13329D5C52E00D1EAEF /* LaunchScreen.storyboard */; };
 		8C7EA14029D5C52E00D1EAEF /* mySiebold_TwinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA13F29D5C52E00D1EAEF /* mySiebold_TwinTests.swift */; };
 		8C7EA14A29D5C52E00D1EAEF /* mySiebold_TwinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA14929D5C52E00D1EAEF /* mySiebold_TwinUITests.swift */; };
 		8C7EA14C29D5C52E00D1EAEF /* mySiebold_TwinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA14B29D5C52E00D1EAEF /* mySiebold_TwinUITestsLaunchTests.swift */; };
+		8C7EA15D29D5C9CB00D1EAEF /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA15C29D5C9CB00D1EAEF /* AppointmentsViewController.swift */; };
+		8C7EA15F29D5CA1100D1EAEF /* SubstitutionPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA15E29D5CA1100D1EAEF /* SubstitutionPlanViewController.swift */; };
+		8C7EA16129D5CA3100D1EAEF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA16029D5CA3100D1EAEF /* MenuViewController.swift */; };
+		8C7EA16329D5CA4900D1EAEF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA16229D5CA4900D1EAEF /* TabBarController.swift */; };
+		8C7EA16529D5CC4000D1EAEF /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA16429D5CC4000D1EAEF /* AppointmentCell.swift */; };
+		8C7EA16729D5CC9400D1EAEF /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA16629D5CC9400D1EAEF /* MenuCell.swift */; };
+		8C7EA16929D5CE2D00D1EAEF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA16829D5CE2D00D1EAEF /* DataManager.swift */; };
+		8C7EA16B29D5D05100D1EAEF /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA16A29D5D05100D1EAEF /* Appointment.swift */; };
+		8C7EA16D29D5D0C700D1EAEF /* Substitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA16C29D5D0C700D1EAEF /* Substitution.swift */; };
+		8C7EA16F29D5D0D500D1EAEF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA16E29D5D0D500D1EAEF /* Menu.swift */; };
+		8C7EA17129D5DECD00D1EAEF /* SubstitutionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7EA17029D5DECD00D1EAEF /* SubstitutionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +49,6 @@
 		8C7EA12529D5C52500D1EAEF /* mySiebold-Twin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mySiebold-Twin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7EA12829D5C52500D1EAEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C7EA12A29D5C52500D1EAEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C7EA12C29D5C52500D1EAEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C7EA12F29D5C52500D1EAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C7EA13129D5C52E00D1EAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C7EA13429D5C52E00D1EAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		8C7EA14529D5C52E00D1EAEF /* mySiebold-TwinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mySiebold-TwinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7EA14929D5C52E00D1EAEF /* mySiebold_TwinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySiebold_TwinUITests.swift; sourceTree = "<group>"; };
 		8C7EA14B29D5C52E00D1EAEF /* mySiebold_TwinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySiebold_TwinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C7EA15C29D5C9CB00D1EAEF /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		8C7EA15E29D5CA1100D1EAEF /* SubstitutionPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstitutionPlanViewController.swift; sourceTree = "<group>"; };
+		8C7EA16029D5CA3100D1EAEF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8C7EA16229D5CA4900D1EAEF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8C7EA16429D5CC4000D1EAEF /* AppointmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCell.swift; sourceTree = "<group>"; };
+		8C7EA16629D5CC9400D1EAEF /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		8C7EA16829D5CE2D00D1EAEF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8C7EA16A29D5D05100D1EAEF /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		8C7EA16C29D5D0C700D1EAEF /* Substitution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substitution.swift; sourceTree = "<group>"; };
+		8C7EA16E29D5D0D500D1EAEF /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		8C7EA17029D5DECD00D1EAEF /* SubstitutionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstitutionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +119,12 @@
 		8C7EA12729D5C52500D1EAEF /* mySiebold-Twin */ = {
 			isa = PBXGroup;
 			children = (
+				8C7EA15B29D5C96700D1EAEF /* Helpers */,
+				8C7EA15A29D5C95300D1EAEF /* Controllers */,
+				8C7EA15929D5C94800D1EAEF /* Views */,
+				8C7EA15829D5C93700D1EAEF /* Models */,
 				8C7EA12829D5C52500D1EAEF /* AppDelegate.swift */,
 				8C7EA12A29D5C52500D1EAEF /* SceneDelegate.swift */,
-				8C7EA12C29D5C52500D1EAEF /* ViewController.swift */,
 				8C7EA12E29D5C52500D1EAEF /* Main.storyboard */,
 				8C7EA13129D5C52E00D1EAEF /* Assets.xcassets */,
 				8C7EA13329D5C52E00D1EAEF /* LaunchScreen.storyboard */,
@@ -125,6 +148,45 @@
 				8C7EA14B29D5C52E00D1EAEF /* mySiebold_TwinUITestsLaunchTests.swift */,
 			);
 			path = "mySiebold-TwinUITests";
+			sourceTree = "<group>";
+		};
+		8C7EA15829D5C93700D1EAEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C7EA16A29D5D05100D1EAEF /* Appointment.swift */,
+				8C7EA16C29D5D0C700D1EAEF /* Substitution.swift */,
+				8C7EA16E29D5D0D500D1EAEF /* Menu.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C7EA15929D5C94800D1EAEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C7EA16429D5CC4000D1EAEF /* AppointmentCell.swift */,
+				8C7EA16629D5CC9400D1EAEF /* MenuCell.swift */,
+				8C7EA17029D5DECD00D1EAEF /* SubstitutionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C7EA15A29D5C95300D1EAEF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C7EA15C29D5C9CB00D1EAEF /* AppointmentsViewController.swift */,
+				8C7EA15E29D5CA1100D1EAEF /* SubstitutionPlanViewController.swift */,
+				8C7EA16029D5CA3100D1EAEF /* MenuViewController.swift */,
+				8C7EA16229D5CA4900D1EAEF /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8C7EA15B29D5C96700D1EAEF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8C7EA16829D5CE2D00D1EAEF /* DataManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7EA12D29D5C52500D1EAEF /* ViewController.swift in Sources */,
+				8C7EA16529D5CC4000D1EAEF /* AppointmentCell.swift in Sources */,
 				8C7EA12929D5C52500D1EAEF /* AppDelegate.swift in Sources */,
+				8C7EA16129D5CA3100D1EAEF /* MenuViewController.swift in Sources */,
+				8C7EA15D29D5C9CB00D1EAEF /* AppointmentsViewController.swift in Sources */,
+				8C7EA16329D5CA4900D1EAEF /* TabBarController.swift in Sources */,
+				8C7EA15F29D5CA1100D1EAEF /* SubstitutionPlanViewController.swift in Sources */,
+				8C7EA16F29D5D0D500D1EAEF /* Menu.swift in Sources */,
+				8C7EA17129D5DECD00D1EAEF /* SubstitutionCell.swift in Sources */,
+				8C7EA16D29D5D0C700D1EAEF /* Substitution.swift in Sources */,
+				8C7EA16729D5CC9400D1EAEF /* MenuCell.swift in Sources */,
+				8C7EA16929D5CE2D00D1EAEF /* DataManager.swift in Sources */,
 				8C7EA12B29D5C52500D1EAEF /* SceneDelegate.swift in Sources */,
+				8C7EA16B29D5D05100D1EAEF /* Appointment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,11 +512,13 @@
 				DEVELOPMENT_TEAM = 587V3P3QNV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mySiebold-Twin/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +526,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Lukas-Ackermann.mySiebold-Twin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,11 +545,13 @@
 				DEVELOPMENT_TEAM = 587V3P3QNV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "mySiebold-Twin/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,6 +559,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Lukas-Ackermann.mySiebold-Twin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
