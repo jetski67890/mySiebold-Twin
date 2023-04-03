@@ -26,12 +26,12 @@ class SubstitutionCell: UITableViewCell {
 
     private func configureUI() {
         
-        subjectLabel.font = UIFont.boldSystemFont(ofSize: 18)
-        dateLabel.font = UIFont.systemFont(ofSize: 14)
-        periodLabel.font = UIFont.systemFont(ofSize: 14)
-        teacherLabel.font = UIFont.systemFont(ofSize: 14)
-        roomLabel.font = UIFont.systemFont(ofSize: 14)
-        infoLabel.font = UIFont.systemFont(ofSize: 14)
+        subjectLabel.font = UIFont.preferredFont(forTextStyle: .headline)
+        dateLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
+        periodLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
+        teacherLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
+        roomLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
+        infoLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
 
         contentView.addSubview(subjectLabel)
         contentView.addSubview(dateLabel)

@@ -23,10 +23,10 @@ class AppointmentCell: UITableViewCell {
     }
 
     private func configureUI() {
-        titleLabel.font = UIFont.boldSystemFont(ofSize: 18)
-        dateLabel.font = UIFont.systemFont(ofSize: 14)
-        timeLabel.font = UIFont.systemFont(ofSize: 14)
-        locationLabel.font = UIFont.systemFont(ofSize: 14)
+        titleLabel.font = UIFont.preferredFont(forTextStyle: .headline)
+        dateLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
+        timeLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
+        locationLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
 
         contentView.addSubview(titleLabel)
         contentView.addSubview(dateLabel)

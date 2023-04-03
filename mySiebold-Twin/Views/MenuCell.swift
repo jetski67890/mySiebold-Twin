@@ -24,10 +24,10 @@ class MenuCell: UITableViewCell {
     
    private func configureUI() {
         
-       dateLabel.font = UIFont.boldSystemFont(ofSize: 18)
-       breakfastLabel.font = UIFont.systemFont(ofSize: 14)
-       lunchLabel.font = UIFont.systemFont(ofSize: 14)
-       snackLabel.font = UIFont.systemFont(ofSize: 14)
+       dateLabel.font = UIFont.preferredFont(forTextStyle: .headline)
+       breakfastLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
+       lunchLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
+       snackLabel.font = UIFont.preferredFont(forTextStyle: .subheadline)
        
        breakfastLabel.numberOfLines = 0
        breakfastLabel.lineBreakMode = .byWordWrapping

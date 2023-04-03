@@ -7,10 +7,15 @@
 
 import Foundation
 
+// Custom Error type
+enum DataManagerError: Error {
+    case invalidURL
+    case noData
+}
+
 class DataManager {
     static let shared = DataManager()
-    private let baseURL = "http://192.168.2.132:5000"
-    //private let baseURL = "https://mysiebold-backend.onrender.com"
+    private let baseURL = "https://mysiebold-backend.onrender.com"
     
     private init() {}
     
@@ -34,36 +39,32 @@ class DataManager {
         fetchData(endpoint: "/menu", completion: completion)
     }
     
-    private func fetchData<T: Decodable>(endpoint: String, isArrayResponse: Bool = true, completion: @escaping (Result<[T]>) -> Void) {
+    private func fetchData<T: Decodable>(endpoint: String, completion: @escaping (Result<[T]>) -> Void) {
         let urlString = baseURL + endpoint
         guard let url = URL(string: urlString) else {
             completion(.failure(NSError(domain: "", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid URL"])))
             return
         }
         
-        URLSession.shared.dataTask(with: url) { (data, response, error) in
+        NetworkManager.shared.getData(from: url) { data, response, error in
             if let error = error {
                 completion(.failure(error))
                 return
             }
             
             guard let data = data else {
-                completion(.failure(NSError(domain: "", code: -1, userInfo: [NSLocalizedDescriptionKey: "No data received"])))
+                completion(.failure(DataManagerError.noData))
                 return
             }
             
             do {
                 let decoder = JSONDecoder()
-                if isArrayResponse {
-                    let items = try decoder.decode([T].self, from: data)
-                    completion(.success(items))
-                } else {
-                    let item = try decoder.decode(T.self, from: data)
-                    completion(.success([item]))
-                }
+                
+                let items = try decoder.decode([T].self, from: data)
+                completion(.success(items))
             } catch {
                 completion(.failure(error))
             }
-        }.resume()
+        }
     }
 }
