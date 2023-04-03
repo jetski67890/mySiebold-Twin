@@ -39,7 +39,26 @@ class DataManager {
         fetchData(endpoint: "/menu", completion: completion)
     }
     
-    private func fetchData<T: Decodable>(endpoint: String, completion: @escaping (Result<[T]>) -> Void) {
+    private func cacheKey(for endpoint: String) -> String {
+        return "cache_" + endpoint
+    }
+        
+    private func saveToCache<T: Codable>(_ items: [T], for endpoint: String) {
+        let key = cacheKey(for: endpoint)
+        if let data = try? JSONEncoder().encode(items) {
+            UserDefaults.standard.set(data, forKey: key)
+        }
+    }
+        
+    private func loadFromCache<T: Codable>(for endpoint: String) -> [T]? {
+        let key = cacheKey(for: endpoint)
+        if let data = UserDefaults.standard.data(forKey: key) {
+            return try? JSONDecoder().decode([T].self, from: data)
+        }
+        return nil
+    }
+    
+    private func fetchData<T: Codable>(endpoint: String, completion: @escaping (Result<[T]>) -> Void) {
         let urlString = baseURL + endpoint
         guard let url = URL(string: urlString) else {
             completion(.failure(NSError(domain: "", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid URL"])))
@@ -48,7 +67,11 @@ class DataManager {
         
         NetworkManager.shared.getData(from: url) { data, response, error in
             if let error = error {
-                completion(.failure(error))
+                if let itemsFromCache: [T] = self.loadFromCache(for: endpoint) {
+                    completion(.success(itemsFromCache))
+                } else {
+                    completion(.failure(error))
+                }
                 return
             }
             
@@ -61,6 +84,7 @@ class DataManager {
                 let decoder = JSONDecoder()
                 
                 let items = try decoder.decode([T].self, from: data)
+                self.saveToCache(items, for: endpoint)
                 completion(.success(items))
             } catch {
                 completion(.failure(error))
